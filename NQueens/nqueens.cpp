@@ -69,9 +69,9 @@ bool solve(int** arr,int row,int n){
 void display(int** arr,int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            cout<<arr[i][j]<<" ";
+            cout<<arr[i][j]<<"  ";
         }
-        cout<<endl;
+        cout<<"\n\n";
     }
 }
 
